@@ -505,181 +505,6 @@
             line-height: 1.7;
         }
 
-        /* Gallery Section */
-        .gallery {
-            padding: 100px 0;
-        }
-
-        .gallery-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            overflow-x: auto;
-            padding: 20px 0;
-            scrollbar-width: thin;
-            scrollbar-color: var(--accent-gold) rgba(212, 175, 55, 0.2);
-        }
-
-        .gallery-container::-webkit-scrollbar {
-            height: 8px;
-        }
-
-        .gallery-container::-webkit-scrollbar-track {
-            background: rgba(212, 175, 55, 0.1);
-            border-radius: 4px;
-        }
-
-        .gallery-container::-webkit-scrollbar-thumb {
-            background: var(--accent-gold);
-            border-radius: 4px;
-        }
-
-        .gallery-container::-webkit-scrollbar-thumb:hover {
-            background: var(--accent-gold-light);
-        }
-
-        .gallery-grid {
-            display: flex;
-            gap: 20px;
-            padding: 10px 15px;
-            min-width: 100%;
-        }
-
-        .gallery-item {
-            position: relative;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: var(--shadow-medium);
-            transition: var(--transition);
-            cursor: pointer;
-            flex-shrink: 0;
-        }
-
-        .gallery-item:hover {
-            transform: scale(1.05);
-            box-shadow: var(--shadow-heavy);
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: var(--transition);
-            object-fit: cover;
-        }
-
-        .gallery-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to top, rgba(10, 25, 47, 0.8), transparent 70%);
-            opacity: 0;
-            transition: var(--transition);
-            z-index: 1;
-        }
-
-        .gallery-item:hover::before {
-            opacity: 1;
-        }
-
-        /* Gallery item sizes - modify these values to change image dimensions */
-        .gallery-item-1 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-2 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-3 {
-            width: 400px;
-            height: 400px;
-        }
-
-        .gallery-item-4 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-5 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-6 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-7 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-8 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-9 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-10 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-11 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-12 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-13 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-14 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-15 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-16 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-17 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-18 {
-            width: 400px;
-            height: 300px;
-        }
-
-        .gallery-item-19 {
-            width: 300px;
-            height: 400px;
-        }
-
         /* Equipment Section */
         .equipment-content {
             max-width: 1100px;
@@ -973,102 +798,6 @@
                 margin-top: 0;
             }
 
-            /* Gallery responsive sizes */
-   .gallery-item-1 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-2 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-3 {
-            width: 400px;
-            height: 400px;
-        }
-
-        .gallery-item-4 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-5 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-6 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-7 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-8 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-9 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-10 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-11 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-12 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-13 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-14 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-15 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-16 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-17 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-18 {
-            width: 400px;
-            height: 300px;
-        }
-
-        .gallery-item-19 {
-            width: 300px;
-            height: 400px;
-        }
-
             /* Table responsive - columns shrink */
             .equipment-table {
                 font-size: 0.95rem;
@@ -1165,105 +894,6 @@
                 font-size: 0.95rem;
             }
 
-            .gallery {
-                padding: 70px 0;
-            }
-
-            /* Gallery smaller sizes */
- .gallery-item-1 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-2 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-3 {
-            width: 400px;
-            height: 400px;
-        }
-
-        .gallery-item-4 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-5 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-6 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-7 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-8 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-9 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-10 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-11 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-12 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-13 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-14 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-15 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-16 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-17 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-18 {
-            width: 400px;
-            height: 300px;
-        }
-
-        .gallery-item-19 {
-            width: 300px;
-            height: 400px;
-        }
             .equipment-content {
                 padding: 35px 25px;
             }
@@ -1408,105 +1038,6 @@
                 font-size: 0.9rem;
             }
 
-            .gallery {
-                padding: 60px 0;
-            }
-
-            /* Gallery mobile sizes */
-   .gallery-item-1 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-2 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-3 {
-            width: 400px;
-            height: 400px;
-        }
-
-        .gallery-item-4 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-5 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-6 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-7 {
-            width: 225px;
-            height: 400px;
-        }
-
-        .gallery-item-8 {
-            width: 400px;
-            height: 225px;
-        }
-
-        .gallery-item-9 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-10 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-11 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-12 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-13 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-14 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-15 {
-            width: 180px;
-            height: 400px;
-        }
-
-        .gallery-item-16 {
-            width: 400px;
-            height: 180px;
-        }
-
-        .gallery-item-17 {
-            width: 300px;
-            height: 400px;
-        }
-
-        .gallery-item-18 {
-            width: 400px;
-            height: 300px;
-        }
-
-        .gallery-item-19 {
-            width: 300px;
-            height: 400px;
-        }
             .equipment-content {
                 padding: 25px 20px;
             }
@@ -1602,7 +1133,7 @@
                     <h1>Професійні пневматичні системи для вашого виробництва</h1>
                     <p>Понад <span class="highlight">25 років</span> досвіду у створенні надійних компресорних систем та
                         промислових мереж охолодження для підприємств будь-якого масштабу</p>
-                    <a href="tel:+380672466770" class="cta-button"><span>Зв'язатися за телефоном</span></a>
+                    <a href="tel:+380672466770" class="cta-button"><span>Зв'язатись</span></a>
                 </div>
                 <div class="hero-image">
                     <div class="hero-image-content">
@@ -1694,79 +1225,6 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery">
-        <div class="container">
-            <div class="section-title">
-                <h2>Наші роботи</h2>
-                <p class="section-subtitle">Перегляньте приклади реалізованих нами проектів з монтажу компресорного
-                    обладнання та пневматичних систем</p>
-            </div>
-
-            <div class="gallery-container">
-                <div class="gallery-grid">
-                    <div class="gallery-item gallery-item-1">
-                        <img src="img/img (1).jpg" alt="Компресорне обладнання">
-                    </div>
-                    <div class="gallery-item gallery-item-2">
-                        <img src="img/img (2).jpg" alt="Монтаж пневмосистеми">
-                    </div>
-                    <div class="gallery-item gallery-item-3">
-                        <img src="img/img (3).jpg" alt="Промисловий компресор">
-                    </div>
-                    <div class="gallery-item gallery-item-4">
-                        <img src="img/img (4).jpg" alt="Компресорна станція">
-                    </div>
-                    <div class="gallery-item gallery-item-5">
-                        <img src="img/img (5).jpg" alt="Пневматична мережа">
-                    </div>
-                    <div class="gallery-item gallery-item-6">
-                        <img src="img/img (6).jpg" alt="Система охолодження">
-                    </div>
-                    <div class="gallery-item gallery-item-7">
-                        <img src="img/img (7).jpg" alt="Монтажні роботи">
-                    </div>
-                    <div class="gallery-item gallery-item-8">
-                        <img src="img/img (8).jpg" alt="Компресорне обладнання">
-                    </div>
-                    <div class="gallery-item gallery-item-9">
-                        <img src="img/img (9).jpg" alt="Промислова система">
-                    </div>
-                    <div class="gallery-item gallery-item-10">
-                        <img src="img/img (10).jpg" alt="Пневмосистема">
-                    </div>
-                    <div class="gallery-item gallery-item-11">
-                        <img src="img/img (11).jpg" alt="Компресорна установка">
-                    </div>
-                    <div class="gallery-item gallery-item-12">
-                        <img src="img/img (12).jpg" alt="Монтаж обладнання">
-                    </div>
-                    <div class="gallery-item gallery-item-13">
-                        <img src="img/img (13).jpg" alt="Промисловий монтаж">
-                    </div>
-                    <div class="gallery-item gallery-item-14">
-                        <img src="img/img (14).jpg" alt="Система стисненого повітря">
-                    </div>
-                    <div class="gallery-item gallery-item-15">
-                        <img src="img/img (15).jpg" alt="Компресорний цех">
-                    </div>
-                    <div class="gallery-item gallery-item-16">
-                        <img src="img/img (16).jpg" alt="Пневматичне обладнання">
-                    </div>
-                    <div class="gallery-item gallery-item-17">
-                        <img src="img/img (17).jpg" alt="Монтаж системи">
-                    </div>
-                    <div class="gallery-item gallery-item-18">
-                        <img src="img/img (18).jpg" alt="Промислова пневмосистема">
-                    </div>
-                    <div class="gallery-item gallery-item-19">
-                        <img src="img/img (19).jpg" alt="Компресорна станція">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Equipment Section -->
     <section class="equipment">
         <div class="container">
@@ -1793,7 +1251,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td colspan="5" class="series-header">PM VSD гвинтовий повітряний компресор</td>
+                                <td colspan="5" class="series-header">PM VSD винтовий повітряний компресор</td>
                             </tr>
                             <tr>
                                 <td>1</td>
@@ -1838,7 +1296,7 @@
                                 <td>8bar</td>
                             </tr>
                             <tr>
-                                <td colspan="5" class="series-header">PM VSD одногвинтовий повітряний компресор</td>
+                                <td colspan="5" class="series-header">PM VSD одновинтовий повітряний компресор</td>
                             </tr>
                             <tr>
                                 <td>10</td>
@@ -2111,14 +1569,6 @@
         if (window.scrollY > 100) {
             document.getElementById('header').classList.add('scrolled');
         }
-
-        // Gallery image error handling
-        document.querySelectorAll('.gallery-item img').forEach(img => {
-            img.onerror = function () {
-                this.src = 'https://placehold.co/400x300/0a192f/112240?text=Image+Not+Found';
-                this.alt = 'Зображення недоступне';
-            };
-        });
     </script>
 </body>
 
